@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+header{
+    background-color: black;
+    color: white;
+    padding: 70px;
+    width: px;
+    margin: auto;
+    text-align: center;
+    
+   
+}
+
+header > h1{
+    font-size:3em;
+}
+
+main{
+  
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding:20px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.747);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+
+    
+}

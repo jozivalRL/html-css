@@ -8,21 +8,25 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            
-           
-            
         }
 
         table{
             width: 500px;
             margin: auto;
             border-collapse: collapse;
+            position: relative;
         }
-
 
         thead, tfoot{
             background-color:gray ;
             color: white;
+
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color:gray ;
 
         }
 
@@ -33,11 +37,13 @@
             background-color: rgb(221, 217, 217);
             padding: 10px;
         }
+        
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
+
+        }
 
      
-        
-        
-
         td, th{
             border: 1px solid gold;
             padding: 20px;
@@ -49,6 +55,11 @@
 
         h1{
             text-align: center;
+        }
+
+        p{
+            width: 500px;
+            margin: auto;
         }
 
     </style>
@@ -166,6 +177,14 @@
                 </tfoot>
             </tbody> 
     </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti earum laboriosam sed adipisci officia, necessitatibus perferendis harum libero placeat error nisi quaerat doloremque doloribus ipsam deserunt, delectus est molestias veritatis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos exercitationem reprehenderit voluptates. Voluptates inventore odio excepturi voluptatibus velit ullam dignissimos nam exercitationem deserunt. Magni libero deserunt quod ab odit quisquam!Loremlo
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias vero fugiat explicabo distinctio in, repudiandae, consequuntur fugit minima totam, fuga repellat cum nobis provident consequatur vitae praesentium ratione quam <nesciunt class="lo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt consectetur, unde, earum quaerat quasi, laborum aperiam inventore officia tempora corporis veniam quidem ducimus deserunt debitis. Sint mollitia dolor sit <eius class="lo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, totam? Sequi eius, facere tempore ex dolores nobis omnis illo voluptate rem, impedit possimus facilis hic delectus nisi. Natus, ullam veritatis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusantium molestiae at aperiam voluptate blanditiis sed alias facere dolores excepturi suscipit tempora, velit eius ea. Alias modi eveniet reiciendis ullam!lo</eius></nesciunt>
+    </p> 
+   
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti earum laboriosam sed adipisci officia, necessitatibus perferendis harum libero placeat error nisi quaerat doloremque doloribus ipsam deserunt, delectus est molestias veritatis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos exercitationem reprehenderit voluptates. Voluptates inventore odio excepturi voluptatibus velit ullam dignissimos nam exercitationem deserunt. Magni libero deserunt quod ab odit quisquam!Loremlo</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti earum laboriosam sed adipisci officia, necessitatibus perferendis harum libero placeat error nisi quaerat doloremque doloribus ipsam deserunt, delectus est molestias veritatis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos exercitationem reprehenderit voluptates. Voluptates inventore odio excepturi voluptatibus velit ullam dignissimos nam exercitationem deserunt. Magni libero deserunt quod ab odit quisquam!Loremlo</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti earum laboriosam sed adipisci officia, necessitatibus perferendis harum libero placeat error nisi quaerat doloremque doloribus ipsam deserunt, delectus est molestias veritatis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos exercitationem reprehenderit voluptates. Voluptates inventore odio excepturi voluptatibus velit ullam dignissimos nam exercitationem deserunt. Magni libero deserunt quod ab odit quisquam!Loremlo</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti earum laboriosam sed adipisci officia, necessitatibus perferendis harum libero placeat error nisi quaerat doloremque doloribus ipsam deserunt, delectus est molestias veritatis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos exercitationem reprehenderit voluptates. Voluptates inventore odio excepturi voluptatibus velit ullam dignissimos nam exercitationem deserunt. Magni libero deserunt quod ab odit quisquam!Loremlo</p>
     
 </body>
 </html>

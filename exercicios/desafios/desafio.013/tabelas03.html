@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+          body{
+            font-family: Arial, Helvetica, sans-serif;
+          
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
+
+        }
+        
+        table{
+            border-collapse:collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+          X
+        }
+    </style>
+</head>
+<body> 
+    <h1>exercicio de tabelas</h1>
+    <table>
+        <caption> 
+            Filmes favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</td>
+                <td>Ana maria santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+                <tr>
+                    <td>Beatriz souza</td>
+                    <td>Hulk</td>
+                    <td>inception</td>
+                    <td>Batman</td>
+                </tr>
+                <tr>
+                    <td>Cláudia Melo</td>
+                    <td>Oblivion</td>
+                    <td>Matrix</td>
+                    <td>Big Hero</td>
+                </tr>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">Homens</th>
+                    <td>Bruno Mendonça</td>
+                    <td>Intocaves</td>
+                    <td>Amnésia</td>
+                    <td>Gladiador</td>
+                    <tr>
+                        <td>Daníel Lourenço</td>
+                        <td>wall-e</td>
+                        <td>oldboy</td>
+                        <td>Dangal</td>
+                        <tr>
+                            <td>Fabio Mota</td>
+                            <td>star wars5</td>
+                            <td>Taxi driver</td>
+                            <td>toy story</td>
+                        
+                        </tr>
+                    </tr>
+                </tr>
+
+            </tr>
+       
+
+        </tbody>
+        <tfoot>
+            <th colspan="4" scope="row">total</th>
+            <td>1000</td>
+        </tfoot>
+    </table>
+
+    
+
+    
+</body>
+</html>

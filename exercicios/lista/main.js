@@ -1,9 +1,9 @@
-function adicionar(){
+function addNewTask(){
+   var list = document.getElementById("list");
+   var text = document.getElementById("task_name").Value;
+   var listItem = document.createElement("li");
 
-   let text =document.getElementById("texto").value;
-   let list  =document.getElementById("lista").innerHTML;
-
-   list += "<li>" +text+ "</li>"
-
-   document.getElementById("lista").innerHTML =list;
+   const textElement =document.createTextNode(text);
+   listItem.appendChild(textElement);
+   list.appendChild(listItem)
 }
